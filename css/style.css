@@ -1,0 +1,35 @@
+body {
+  height: 5000px;
+  background: #833ab4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1 {
+  font-family: sans-serif;
+  font-weight: 300;
+  color: ghostwhite;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  padding: 25px 15px;
+}
+
+#female-svg,
+#male-svg {
+  position: fixed;
+  top: 50%;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+}
+
+#female-svg {
+  left: 25%;
+}
+
+#male-svg {
+  left: 75%;
+}
